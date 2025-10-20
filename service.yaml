@@ -7,7 +7,6 @@ spec:
   selector:
     app.kubernetes.io/name: github-actions-test
   ports:
-    - port: 3000
+    - protocol: TCP
+      port: 3000
       targetPort: 3000
-      nodePort: 30002
-  type: NodePort
