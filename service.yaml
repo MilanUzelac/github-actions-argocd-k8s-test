@@ -5,7 +5,7 @@ metadata:
   namespace: github-actions-test
 spec:
   selector:
-    app.kubernetes.io/name: github-actions-test
+    app: github-actions-test
   ports:
     - protocol: TCP
       port: 3000
