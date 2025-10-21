@@ -2,18 +2,18 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: github-actions-test
-  name: github-actions-test
+    app: github-actions-test:milanuzelac/github-actions-test:1.0.12
+  name: github-actions-test:milanuzelac/github-actions-test:1.0.12
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: github-actions-test
+      app: github-actions-test:milanuzelac/github-actions-test:1.0.12
   template:
     metadata:
       labels:
-        app: github-actions-test
+        app: github-actions-test:milanuzelac/github-actions-test:1.0.12
     spec:
       containers:
-      - image: milanuzelac/github-actions-test:milanuzelac/github-actions-test:1.0.11
-        name: github-actions-test
+      - image: milanuzelac/github-actions-test:milanuzelac/github-actions-test:1.0.12milanuzelac/github-actions-test:milanuzelac/github-actions-test:1.0.121.0.11
+        name: github-actions-test:milanuzelac/github-actions-test:1.0.12
