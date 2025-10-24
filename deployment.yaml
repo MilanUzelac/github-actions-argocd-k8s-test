@@ -15,5 +15,5 @@ spec:
         app: github-actions-test
     spec:
       containers:
-      - image: milanuzelac/github-actions-test:1.0.21
+      - image: milanuzelac/github-actions-test:1.0.22
         name: github-actions-test
