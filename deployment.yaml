@@ -4,6 +4,7 @@ metadata:
   labels:
     app: github-actions-test
   name: github-actions-test
+  namespace: github-actions-test
 spec:
   replicas: 1
   selector:
